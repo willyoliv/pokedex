@@ -105,8 +105,8 @@ class ProviderPokemons extends ChangeNotifier {
   }
 
   Pokemon getByName(String name) {
-    Pokemon pokemon =
-        _fullListOfPokemons.firstWhere((pokemon) => pokemon.name == name);
+    Pokemon pokemon = _fullListOfPokemons
+        .firstWhere((pokemon) => pokemon.name.contains(name));
     return pokemon;
   }
 
