@@ -1,0 +1,25 @@
+class AppIcons {
+  static final Map<String, String> appIcons = {
+    'bug': 'assets/types/bug.svg',
+    'dark': 'assets/types/dark.svg',
+    'dragon': 'assets/types/dragon.svg',
+    'electric': 'assets/types/electric.svg',
+    'fairy': 'assets/types/fairy.svg',
+    'fire': 'assets/types/fire.svg',
+    'fighting': 'assets/types/fighting.svg',
+    'flying': 'assets/types/flying.svg',
+    'grass': 'assets/types/grass.svg',
+    'ground': 'assets/types/ground.svg',
+    'ghost': 'assets/types/ghost.svg',
+    'ice': 'assets/types/ice.svg',
+    'normal': 'assets/types/normal.svg',
+    'poison': 'assets/types/poison.svg',
+    'psychic': 'assets/types/psychic.svg',
+    'rock': 'assets/types/rock.svg',
+    'steel': 'assets/types/steel.svg',
+    'water': 'assets/types/water.svg',
+    'short': 'assets/heights/short.svg',
+    'medium': 'assets/heights/medium.svg',
+    'tall': 'assets/heights/tall.svg',
+  };
+}
