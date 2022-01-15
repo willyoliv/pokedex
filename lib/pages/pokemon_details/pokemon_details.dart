@@ -66,7 +66,11 @@ class _PokemonDetailsState extends State<PokemonDetails> {
             enableScroll: enableScroll,
             controller: controller);
       case StatePageDetails.evoluvion:
-        return PokemonEvolutionDetails(pokemon: pokemon);
+        return PokemonEvolutionDetails(
+          pokemon: pokemon,
+          enableScroll: enableScroll,
+          controller: controller,
+        );
       default:
         return Container();
     }

@@ -318,7 +318,7 @@ class ProviderPokemons extends ChangeNotifier {
   void searchByName(String name) {
     if (name.isNotEmpty) {
       _pokemons = _listOfPokemonsAux.where((pokemon) {
-        return pokemon.name == name.toLowerCase();
+        return pokemon.name.startsWith(name.toLowerCase());
       }).toList();
     } else {
       applyFilter(

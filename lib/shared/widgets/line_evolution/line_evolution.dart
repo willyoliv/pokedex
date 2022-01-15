@@ -23,7 +23,11 @@ class LineEvolution extends StatelessWidget {
       children: [
         StackPokemonEvolution(pokemon: pokemon),
         Container(
-          margin: const EdgeInsets.only(top: 30, left: 30, right: 30),
+          margin: const EdgeInsets.only(
+            top: 30,
+            left: 30,
+            right: 30,
+          ),
           width: 52,
           alignment: Alignment.topCenter,
           child: Column(

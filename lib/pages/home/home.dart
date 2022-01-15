@@ -69,7 +69,7 @@ class _HomeState extends State<Home> {
                   },
                 ),
               )
-            : Center(
+            : Container(
                 child: Text(
                   "No Pokemon Found!",
                   style: TextStyles.text,
@@ -141,7 +141,7 @@ class _HomeState extends State<Home> {
                               },
                               icon: SvgPicture.asset(
                                   'assets/icons/generation.svg'),
-                              splashRadius: 18,
+                              splashRadius: 22,
                               iconSize: 20,
                             ),
                             IconButton(
@@ -157,7 +157,7 @@ class _HomeState extends State<Home> {
                                 );
                               },
                               icon: SvgPicture.asset('assets/icons/sort.svg'),
-                              splashRadius: 18,
+                              splashRadius: 22,
                             ),
                             IconButton(
                               onPressed: () {
@@ -172,7 +172,7 @@ class _HomeState extends State<Home> {
                                 );
                               },
                               icon: SvgPicture.asset('assets/icons/filter.svg'),
-                              splashRadius: 18,
+                              splashRadius: 22,
                             ),
                           ],
                         ),
